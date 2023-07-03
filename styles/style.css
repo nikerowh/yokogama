@@ -1,0 +1,22 @@
+html, body {font-family: Lucida Console; scrollbar-gutter: stable;}
+header {text-align: center;}
+main {text-align: justify; }
+footer {text-align: right;}
+
+h1 {font-size: 32pt; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;}
+em {font-weight: normal;}
+p {font-size: 14pt;}
+address {font-size: 24pt;}
+
+.picture-sushi img {width: 10%;}
+.picture-drink img {width: 2%;}
+.advertising {margin-left: 30pt; margin-top: 5pt; margin-bottom: 5pt; font-size: 12pt;}
+.bigger {font-size: 16pt}
+.pricelist {font-size: 16pt;}
+table.pricelist th, table.pricelist td {
+    border-color:rgb(199, 199, 199);
+    border-style: inset;
+    border-radius: 4px;
+    padding: 4px;
+}
+table.catalog img {width: 50%;}
