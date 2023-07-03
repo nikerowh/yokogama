@@ -1,0 +1,1 @@
+dig _github-pages-challenge-nikerowh.yokogama.com +nostats +nocomments +nocmd e14485bfce5f32d7402714a8d3214f
