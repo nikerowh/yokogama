@@ -13,10 +13,11 @@ address {font-size: 24pt;}
 .advertising {margin-left: 30pt; margin-top: 5pt; margin-bottom: 5pt; font-size: 12pt;}
 .bigger {font-size: 16pt}
 .pricelist {font-size: 16pt;}
-table.pricelist th, table.pricelist td {
-    border-color:rgb(199, 199, 199);
-    border-style: inset;
-    border-radius: 4px;
-    padding: 4px;
-}
-table.catalog img {width: 50%;}
+
+table.pricelist th, table.pricelist td {border-color:grey; border-style: solid; padding: 4px;}
+table.pricelist thead th {color: white; background-color: grey;}
+table.pricelist tfoot {text-align: right; font-style: italic;}
+
+table.catalog img {width: 200px;}
+table.catalog {border-collapse: collapse;}
+table.catalog td {border-top: black thin dotted; border-bottom: black thin dotted; padding: 10px;}
