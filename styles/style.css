@@ -5,7 +5,7 @@ footer {text-align: right;}
 
 h1 {font-size: 32pt; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;}
 em {font-weight: normal;}
-p {font-size: 14pt;}
+p {font-size: 16pt;}
 address {font-size: 24pt;}
 
 .picture-sushi img {width: 10%;}
@@ -21,3 +21,17 @@ table.pricelist tfoot {text-align: right; font-style: italic;}
 table.catalog img {width: 200px;}
 table.catalog {border-collapse: collapse;}
 table.catalog td {border-top: black thin dotted; border-bottom: black thin dotted; padding: 10px;}
+
+nav {
+    float: left;
+    width: 150px;
+    margin: 10px 30px 10px 0px;
+    padding: 10px;
+    border: black medium double;
+    border-radius: 10px;
+}
+nav div {
+    font-size: 20pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
