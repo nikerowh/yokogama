@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/style.css" type="text/css">
+        <title>Йокогама: заказ столиков</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Суши-бар <em>&laquo;Йокогама&raquo;</em></h1>
+            <p class="picture-sushi"><img src="images/sushi.png" title="Суши" alt="Суши?"></p>
+            <a href="pricelist.html">Вернуться к прайс-листу</a>
+        </header>
+
+        <main>
+            <h2>Заказ столиков</h2>
+            <form action="mailto:nikerowh@gmail.com" method="post" enctype="text/plain">
+                <p>
+                    <label for="name">Как к Вам обращаться?</label>
+                    <br>
+                    <input type="text" name="name" id="name" required>
+                </p>
+
+                <p>
+                    <label for="phone">По какому номеру телефона Вам перезвонить?</label>
+                    <br>
+                    <input type="text" name="phone" id="phone" required>
+                </p>
+
+                <p>
+                    <label for="time">На какое время желаете заказать столик?</label>
+                    <br>
+                    <input type="time" name="time" id="time" required>
+                </p>
+
+                <p><input type="submit"></p>
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; Читатели книги &laquo;HTML и CSS&raquo;.<br>Все права защищены.</p>
+        </footer>
+    </body>
+</html>

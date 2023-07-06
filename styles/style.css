@@ -23,11 +23,10 @@ table.catalog {border-collapse: collapse;}
 table.catalog td {border-top: black thin dotted; border-bottom: black thin dotted; padding: 10px;}
 
 nav {
-    float: left;
-    width: 150px;
+    width: auto;
     margin: 10px 30px 10px 0px;
     padding: 10px;
-    border: black medium double;
+    border: black medium solid;
     border-radius: 10px;
 }
 nav div {
