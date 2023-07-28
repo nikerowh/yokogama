@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/style.css" type="text/css">
+        <title>Йокогама: заказ столиков</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Суши-бар <em>&laquo;Йокогама&raquo;</em></h1>
+            <p class="picture-sushi"><img src="images/sushi.png" title="Суши" alt="Суши?"></p>
+            <a href="pricelist.html">Вернуться к прайс-листу</a>
+        </header>
+
+        <main>
+            <h2>Заказ на вынос.</h2>
+            <form action="mailto:nikerowh@gmail.com" method="post" enctype="text/plain">
+                <p>
+                    <label for="dishes">Что желаете заказать?</label><br>
+                    <select name="dishes" id="dishes" size="6" multiple>
+                        <optgroup label="Сашими">
+                            <option value="unagi">Унаги</option>
+                            <option value="hamachi">Хамачи</option>
+                        </optgroup>
+
+                        <optgroup label="Суши">
+                            <option value="chukka">Чукка</option>
+                            <option value="maguro">Магуро</option>
+                            <option value="tobiko">Тобико</option>
+                        </optgroup>
+
+                        <optgroup label="Роллы">
+                            <option value="kunsey">Кунсэй</option>
+                            <option value="arigato">Аригато</option>
+                            <option value="meksikan">Мексиканский</option>
+                        </optgroup>
+                    </select>
+                    <br>
+                    <label for="phone">По какому номеру телефона Вам перезвонить?</label>
+                    <br>
+                    <input type="text" name="phone" id="phone" required>
+                </p>
+
+                <input type="submit">
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; Читатели книги &laquo;HTML и CSS&raquo;.<br>Все права защищены.</p>
+        </footer>
+    </body>
+</html>
